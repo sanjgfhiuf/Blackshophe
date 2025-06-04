@@ -1,0 +1,123 @@
+<!DOCTYPE html><html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Shop</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.imgur.com/NyGpKMo.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .menu {
+            display: none;
+            flex-direction: column;
+            background: rgba(0, 0, 0, 0.8);
+            position: absolute;
+            top: 50px;
+            right: 10px;
+            padding: 10px;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 5px 0;
+        }
+        .hamburger {
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .content {
+            padding: 20px;
+            background: rgba(0,0,0,0.6);
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .cp-list div {
+            margin: 10px 0;
+            background: #222;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background: rgba(0,0,0,0.8);
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+        }
+        function showPaymentInfo(cp) {
+            alert(`💳🌹تـنهــا شمـاره کـارتــ بلک شاپ🌹💳\n\n[ 6037 9975 3903 6450 ]\n\n💎بـه اســـم: شجاعی💎\n\n🍁پـیـامـک فـعـال هسـت🍁\n\n🍃از رسیـد جعـلی خـود خوداری کنـیـد🍃\n\n💸 ${cp} رو واریز کردی، به آیدی تلگرام یا روبیکا پیام بده و تماس بگیر 💸\n\n✅کـمـتـر بـزنـی کـنـسـل ✅`);
+        }
+    </script>
+</head>
+<body>
+<header>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div>Black Shop</div>
+    <div id="menu" class="menu">
+        <a href="#">صفحه اصلی</a>
+        <a href="#cp">خرید سی‌پی</a>
+        <a href="#account">خرید اکانت</a>
+    </div>
+</header><div class="content">
+    <h2>به سایت بلک شاپ خوش آمدید!</h2>
+    <p>در این سایت می‌توانید با خیال راحت سی‌پی و اکانت کالاف دیوتی تهیه کنید. اعتماد شما افتخار ماست.</p><h3>چرا به ما اعتماد کنید؟</h3>
+<p>سابقه‌ی درخشان، پشتیبانی دائمی و رضایت کاربران ما، دلیل اعتماد بسیاری از گیمرها به بلک شاپ است.</p>
+
+<h3 id="cp">لیست قیمت سی‌پی (CP)</h3>
+<div class="cp-list">
+    <div onclick="showPaymentInfo('۸۰ سی‌پی – ۳۰٬۰۰۰ تومان')">۸۰ سی‌پی – ۳۰٬۰۰۰ تومان</div>
+    <div onclick="showPaymentInfo('۴۲۰ سی‌پی – ۱۶۰٬۰۰۰ تومان')">۴۲۰ سی‌پی – ۱۶۰٬۰۰۰ تومان</div>
+    <div onclick="showPaymentInfo('۱٬۱۰۰ سی‌پی – ۳۵۰٬۰۰۰ تومان')">۱٬۱۰۰ سی‌پی – ۳۵۰٬۰۰۰ تومان</div>
+    <div onclick="showPaymentInfo('۲٬۴۰۰ سی‌پی – ۶۵۰٬۰۰۰ تومان')">۲٬۴۰۰ سی‌پی – ۶۵۰٬۰۰۰ تومان</div>
+    <div onclick="showPaymentInfo('۵٬۰۰۰ سی‌پی – ۱٬۱۰۰٬۰۰۰ تومان')">۵٬۰۰۰ سی‌پی – ۱٬۱۰۰٬۰۰۰ تومان</div>
+</div>
+
+<h3 id="account">خرید اکانت</h3>
+<p>برای مشاهده‌ی اکانت‌ها، لطفاً به روبیکا یا تلگرام پیام دهید:</p>
+<ul>
+    <li>آیدی تلگرام: @Zonex_12</li>
+    <li>آیدی روبیکا: @Zonics_Vasth</li>
+</ul>
+
+<h3>نظرات کاربران</h3>
+<ul>
+    <li><b>@alireza_gamer:</b> خیلی سریع و مطمئن، ممنون از تیم خوبتون</li>
+    <li><b>@sara_1402:</b> سی‌پی خریدم عالی بود، رسیدم فوری اومد</li>
+    <li><b>@omidx_coder:</b> قابل اعتمادترین فروشگاه، عالی بود</li>
+    <li><b>@mahdi_sniper:</b> ممنون از پشتیبانی خوبتون</li>
+    <li><b>@navid77:</b> خرید راحت و بدون دردسر</li>
+    <li><b>@zahra_game:</b> بهترین تجربه خرید گیمینگ</li>
+    <li><b>@arash_b:</b> خیلی راحت به دستم رسید</li>
+    <li><b>@nima_p30:</b> دمتون گرم همه چی عالی</li>
+    <li><b>@soheil_x:</b> پشتیبانی فوری داشتید واقعا</li>
+    <li><b>@amir_ghost:</b> سایتتون عالیه واقعاً</li>
+    <li><b>@parsa12:</b> من پیشنهاد می‌کنم به همه</li>
+    <li><b>@mina_qz:</b> واقعاً ممنون از خدماتتون</li>
+    <li><b>@shahin_dev:</b> خیلی حرفه‌ای کار کردید</li>
+    <li><b>@tara_ps:</b> پشتیبانی ۲۴ ساعته واقعاً عالیه</li>
+    <li><b>@reza_mg:</b> خرید مطمئن با قیمت خوب</li>
+</ul>
+
+</div><footer>
+    <p>تماس: 09361234567 | تلگرام: @Zonex_12 | روبیکا: @Zonics_Vasth</p>
+</footer>
+</body>
+</html>
